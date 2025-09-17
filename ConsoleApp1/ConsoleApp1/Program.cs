@@ -29,7 +29,7 @@ class Program
 
             int half = size / 2 + 1;
 
-            // Parte superior
+            // top 
             for (int i = 1; i <= half; i++)
             {
                 Console.Write(new string(' ', half - i));
@@ -40,7 +40,8 @@ class Program
                 Console.WriteLine();
             }
 
-            // Parte inferior
+            // lower part 
+
             for (int i = half - 1; i >= 1; i--)
             {
                 Console.Write(new string(' ', half - i));
@@ -51,7 +52,7 @@ class Program
                 Console.WriteLine();
             }
 
-            Console.WriteLine(); // Espacio entre rombos
+            Console.WriteLine(); // space between diamonds
         }
     }
 }
